@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cornshit.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="corn0000" x="0" y="0" width="310" height="257"/>
+	<SubTexture name="distortcorn0000" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0001" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0002" x="674" y="0" width="314" height="263" frameX="-17" frameY="-9" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0003" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0004" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0005" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0006" x="1013" y="0" width="326" height="250" frameX="-5" frameY="-18" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0007" x="1364" y="0" width="275" height="267" frameX="-33" frameY="-1" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0008" x="1664" y="0" width="290" height="294" frameX="-34" frameY="-3" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0009" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0010" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0011" x="0" y="319" width="299" height="262" frameX="-31" frameY="0" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0012" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0013" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0014" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0015" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0016" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0017" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0018" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0019" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0020" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0021" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0022" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0023" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0024" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0025" x="324" y="319" width="298" height="251" frameX="-25" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0026" x="647" y="319" width="354" height="296" frameX="0" frameY="-18" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0027" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0028" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0029" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0030" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0031" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0032" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0033" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0034" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0035" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0036" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0037" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0038" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0039" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0040" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0041" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="distortcorn0042" x="335" y="0" width="314" height="260" frameX="-17" frameY="-8" frameWidth="354" frameHeight="314"/>
+	<SubTexture name="heart0000" x="1026" y="319" width="232" height="252"/>
+	<SubTexture name="mine0000" x="1283" y="319" width="307" height="301"/>
+	<SubTexture name="reset0000" x="1615" y="319" width="187" height="159" frameX="-5" frameY="-20" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0001" x="1827" y="319" width="181" height="134" frameX="-9" frameY="-33" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0002" x="0" y="645" width="184" height="137" frameX="-7" frameY="-32" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0003" x="209" y="645" width="196" height="135" frameX="-1" frameY="-33" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0004" x="430" y="645" width="195" height="164" frameX="-2" frameY="-18" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0005" x="650" y="645" width="178" height="182" frameX="-10" frameY="-9" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0006" x="853" y="645" width="150" height="187" frameX="-24" frameY="-6" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0007" x="1028" y="645" width="135" height="181" frameX="-32" frameY="-10" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0008" x="1188" y="645" width="137" height="188" frameX="-31" frameY="-5" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0009" x="1350" y="645" width="143" height="197" frameX="-28" frameY="0" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0010" x="1518" y="645" width="170" height="192" frameX="-14" frameY="-3" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0011" x="1713" y="645" width="184" height="173" frameX="-7" frameY="-13" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0012" x="0" y="867" width="185" height="141" frameX="-6" frameY="-29" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0013" x="210" y="867" width="182" height="137" frameX="-9" frameY="-30" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0014" x="417" y="867" width="191" height="136" frameX="-3" frameY="-31" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0015" x="633" y="867" width="197" height="151" frameX="0" frameY="-23" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0016" x="855" y="867" width="189" height="175" frameX="-4" frameY="-12" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0017" x="1069" y="867" width="166" height="187" frameX="-16" frameY="-6" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0018" x="1260" y="867" width="133" height="184" frameX="-32" frameY="-8" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0019" x="1418" y="867" width="138" height="182" frameX="-29" frameY="-7" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0020" x="1581" y="867" width="134" height="194" frameX="-31" frameY="-3" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0021" x="1740" y="867" width="158" height="196" frameX="-19" frameY="-2" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0022" x="0" y="1088" width="179" height="184" frameX="-9" frameY="-8" frameWidth="197" frameHeight="198"/>
+	<SubTexture name="reset0023" x="1615" y="319" width="187" height="159" frameX="-5" frameY="-20" frameWidth="197" frameHeight="198"/>
+</TextureAtlas>
