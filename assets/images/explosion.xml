@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="explosion.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="explosion0000" x="0" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0001" x="0" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0002" x="82" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0003" x="82" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0004" x="164" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0005" x="164" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0006" x="246" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0007" x="246" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0008" x="328" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0009" x="328" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0010" x="410" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0011" x="410" y="0" width="57" height="79"/>
+	<SubTexture name="explosion0012" x="0" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0013" x="0" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0014" x="82" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0015" x="82" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0016" x="164" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0017" x="164" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0018" x="246" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0019" x="246" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0020" x="328" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0021" x="328" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0022" x="410" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0023" x="410" y="104" width="57" height="79"/>
+	<SubTexture name="explosion0024" x="0" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0025" x="0" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0026" x="82" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0027" x="82" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0028" x="164" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0029" x="164" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0030" x="246" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0031" x="246" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0032" x="328" y="208" width="57" height="79"/>
+	<SubTexture name="explosion0033" x="328" y="208" width="57" height="79"/>
+</TextureAtlas>

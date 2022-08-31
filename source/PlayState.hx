@@ -1,5 +1,6 @@
 package;
 
+import Random;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
@@ -9,8 +10,10 @@ import flixel.system.FlxSound;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
+import flixel.util.FlxColor;
 import openfl.Lib;
 import openfl.display.Sprite;
+import sys.io.File;
 
 class PlayState extends FlxState
 {
@@ -23,6 +26,8 @@ class PlayState extends FlxState
 	var timerCounter:Float = 0;
 	var miliseconds:Float = 800;
 	var purpleOverlay:FlxSprite;
+	var moveAmount:Float = 0.5;
+	var explosion:FlxSprite = new FlxSprite(640 / 8, -15);
 
 	public static var score:Int = 0;
 
@@ -69,10 +74,18 @@ class PlayState extends FlxState
 			scoreCount.screenCenter(X);
 			add(scoreCount);
 
+			explosion.frames = FlxAtlasFrames.fromSparrow("assets/images/explosion.png", 'assets/images/explosion.xml');
+			explosion.animation.addByPrefix('explosion', "explosion", 30, false);
+			// explosion.setGraphicSize(Std.int(bambi.width * 0.25));
+			explosion.visible = false;
+			explosion.updateHitbox();
+			explosion.antialiasing = true;
+			add(explosion);
+
 			corn = new FlxTypedGroup<FlxSprite>();
 			add(corn);
 
-			purpleOverlay = new FlxSprite().makeGraphic(640, 480, 0xFF981E9C);
+			purpleOverlay = new FlxSprite().makeGraphic(640, 480, 0xFF730477);
 			purpleOverlay.alpha = 0;
 			add(purpleOverlay);
 
@@ -100,6 +113,8 @@ class PlayState extends FlxState
 		{
 			makeCorn();
 			miliseconds -= 0.0001;
+			if (moveAmount < 20)
+				moveAmount += Random.float(0.001, 0.2);
 			timerCounter = 0;
 		}
 
@@ -116,7 +131,7 @@ class PlayState extends FlxState
 		{
 			if (spr.active)
 			{
-				spr.y += 5;
+				spr.y += moveAmount;
 				if (FlxG.overlap(bambi, spr))
 				{
 					switch spr.animation.curAnim.name
@@ -127,6 +142,7 @@ class PlayState extends FlxState
 							spr.active = false;
 							spr.destroy();
 						case "distortcorn":
+							purpleOverlay.color = 0xFF730477;
 							shmooveamount += 0.1;
 							purpleOverlay.alpha = 1;
 							score -= 50;
@@ -135,21 +151,30 @@ class PlayState extends FlxState
 							spr.destroy();
 						case "heart":
 							lives++;
+							moveAmount = moveAmount / 1.1;
 							score += 2269;
+							miliseconds += 20;
 							FlxG.sound.play("assets/sounds/heal.ogg");
 							spr.active = false;
 							spr.destroy();
 						case "reset":
 							score += 4269;
+							moveAmount = moveAmount / 4;
 							purpleOverlay.alpha = 0;
 							shmooveamount = 0;
+							miliseconds += 100;
 							FlxG.sound.play("assets/sounds/rewind.ogg");
 							FlxTween.tween(windowshell, {x: ogXVal, y: ogYVal}, 0.5, {ease: FlxEase.backOut});
 							spr.active = false;
 							spr.destroy();
 						case "mine":
 							lives--;
+							explosion.visible = true;
+							explosion.animation.play('explosion');
+							FlxG.sound.play("assets/sounds/explosion.ogg");
 							score -= 1269;
+							purpleOverlay.color = 0xffea00ff;
+							purpleOverlay.alpha = 1;
 							FlxG.sound.play("assets/sounds/mine.ogg");
 							spr.active = false;
 							spr.destroy();
@@ -161,6 +186,9 @@ class PlayState extends FlxState
 					{
 						case "corn":
 							lives -= 1;
+							explosion.visible = true;
+							explosion.animation.play('explosion');
+							FlxG.sound.play("assets/sounds/explosion.ogg");
 					}
 
 					spr.y = 0;

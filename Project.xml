@@ -4,7 +4,7 @@
 
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="dde bts teaser build" file="dde bts teaser build" main="Main" version="0.0.1" company="HaxeFlixel" />
+	<app title="DDE: Below The Surface" file="BelowTheSurface" packageName="com.shadowmario.btsteam" package="com.shadowmario.btsteam" main="Main" version="0.1.0" company="BTS Team" />
 
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
 		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
@@ -33,9 +33,12 @@
 	<source path="source" />
 	<assets path="assets" />
 
+	<assets path='assets/blank.txt' rename='your high score just in case you missed it.txt' />
+
 	<!-- _______________________________ Libraries ______________________________ -->
 
 	<haxelib name="flixel" />
+	<haxelib name="random" />
 
 	<!--In case you want to use the addons package-->
 	<!--<haxelib name="flixel-addons" />-->
@@ -81,4 +84,9 @@
 	<!-- _________________________________ Custom _______________________________ -->
 
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
+
+	<icon path="assets/images/icon/icon16.png" size='16'/>
+	<icon path="assets/images/icon/icon32.png" size='32'/>
+	<icon path="assets/images/icon/icon64.png" size='64'/>
+	<icon path="assets/images/icon/iconOG.png" />
 </project>

@@ -9,6 +9,7 @@ import flixel.system.FlxSound;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
+import sys.io.File;
 
 class Lose extends FlxState
 {
@@ -17,6 +18,11 @@ class Lose extends FlxState
 	override public function create()
 	{
 		super.create();
+
+		var content:String = sys.io.File.getContent('your high score just in case you missed it.txt');
+
+		if (Std.parseFloat(content) < PlayState.score)
+			sys.io.File.saveContent('your high score just in case you missed it.txt', Std.string(PlayState.score));
 
 		FlxG.autoPause = false;
 		FlxG.mouse.visible = false;
